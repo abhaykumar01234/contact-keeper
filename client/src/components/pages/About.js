@@ -10,6 +10,20 @@ const About = () => {
 			<p className="bg-dark p">
 				<strong> Version :</strong> 1.0.0
 			</p>
+			<table>
+				<tr>
+					<td>Developer</td>
+					<td>
+						:<strong style={{ paddingLeft: "1rem" }}>Abhay Kumar</strong>
+					</td>
+				</tr>
+				<tr>
+					<td>Created On</td>
+					<td>
+						:<strong style={{ paddingLeft: "1rem" }}>17 Oct 2019</strong>
+					</td>
+				</tr>
+			</table>
 		</div>
 	);
 };
